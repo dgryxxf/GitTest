@@ -12,6 +12,6 @@ public class Dog extends Animal {
         this.country = country;
     }
     public void say(){
-        System.out.println("This is "+getName()+" Dog");
+        System.out.println("This is "+getName()+" "+getAge()+" Dog");
     }
 }
